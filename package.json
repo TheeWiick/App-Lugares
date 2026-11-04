@@ -1,0 +1,14 @@
+{
+  "name": "app_lugares",
+  "version": "1.0.0",
+  "description": "Aplicación de lugares turísticos",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/:dist/css/ --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.85.1"
+  }
+}
