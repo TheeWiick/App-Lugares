@@ -8,7 +8,7 @@
 
 Aplicación web multipágina interactiva orientada al descubrimiento de destinos turísticos y experiencias de viaje.
 
-[🌐 Ver Demo en vivo](https://theewiick.github.io/App-Lugares/)
+[🌐 Visitar Web](https://theewiick.github.io/App-Lugares/)
 
 </div>
 
