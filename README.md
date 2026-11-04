@@ -33,13 +33,17 @@ Aplicación web multipágina interactiva orientada al descubrimiento de destinos
 
 ```text
 app_lugares/
-│
-├── dist/               # Archivos compilados listos para producción (CSS, imágenes)
+├── css/                # Hojas de estilo compiladas e imágenes estáticas
+│   ├── main.css
+│   └── img/            # Recursos gráficos (items, recomendados, testimonios)
 ├── scss/               # Archivos fuente SCSS
 │   ├── _configuraciones.scss  # Variables y ajustes globales
 │   ├── _media.scss            # Diseño responsive (Media Queries)
 │   ├── _rejilla_item.scss     # Estilos de componentes y grids
 │   ├── _utilidades.scss       # Clases de utilidad
 │   └── main.scss              # Punto de entrada principal de estilos
-├── *.html              # Vistas principales (index, lugares, nosotros, contacto)
+├── contacto.html       # Página de contacto
+├── index.html          # Página principal
+├── lugares.html        # Galería / buscador de destinos
+├── nosotros.html       # Sección corporativa / sobre nosotros
 └── package.json        # Dependencias y scripts del proyecto
